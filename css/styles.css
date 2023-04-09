@@ -37,6 +37,9 @@ ul.list{
 
 }
 
+.link{
+    text-decoration: none;
+}
 .colorlogo{
     color: var(--title-text-color);
 }
