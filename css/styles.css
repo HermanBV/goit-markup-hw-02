@@ -1,0 +1,79 @@
+/* Цвет основного текста #2E2F42 */
+
+/* Вторичный цвет текста #434455 */
+
+/* Белый #FFFFFF */
+
+/* Акцент #4D5AE5 */
+
+:root{
+    --primary-text-color:#434455;
+    --title-text-color:#2E2F42;
+    --accent-color:#4D5AE5; 
+    --primary-white-color:#fff
+}
+
+body{
+    background-color:var(--primary-white-color);
+    color:var(--primary-text-color) ;
+}
+
+ul.list{
+    list-style: none;
+}
+
+.logo {
+    color:var(--accent-color) ;
+}
+
+.colorlogo{
+    color: var(--title-text-color);
+}
+/* Site nav */
+
+.site-nav .link {
+    color:var(--title-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+/* hero */
+.hero{
+    background-color: var(--title-text-color);
+}
+.hero-title{
+    color:var(--primary-white-color) ;
+}
+
+.button {
+    background-color: var(--accent-color);
+    color:var(--primary-white-color);
+}
+
+/* section */
+.section-title,
+.feature-list{
+    background-color:var(--primary-white-color) ;
+}
+.section-title{
+    color:var(--title-text-color) ;
+}
+
+.feature-list .title{
+color:var(--title-text-color) ;
+}
+
+.footer-text{
+    color:var(--primary-white-color);
+}
+ 
+.section-work{
+    background-color:var(--primary-white-color);
+}
+
+.section-team{
+    background-color: #F4F4FD;
+}
