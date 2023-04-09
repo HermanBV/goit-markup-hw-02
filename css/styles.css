@@ -64,6 +64,9 @@ ul.list{
     color: var(--accent-color);
 }
 
+.link{
+color: var(--accent-color);
+}
 /* hero */
 .hero{
     background-color: var(--title-text-color);
