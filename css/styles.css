@@ -77,6 +77,8 @@ li{
 .site-nav .link-nav:hover, 
 .site-nav .link-nav:focus{
     color: var(--accent-color);
+    color: #404bbf;
+    
 }
 
 .contacts .link-con:hover,
@@ -88,7 +90,7 @@ li{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+
 }
 
 .link{
