@@ -61,7 +61,7 @@ li{
 }
 
 .contacts{
-    font-style: normal;
+    color: var(--title-text-color);
 }
 
 .colorlogo{
