@@ -86,14 +86,14 @@ li{
 
 .contacts .link:hover,
 .contacts .link:focus{
-    color: var(--accent-color);
+    color: #404bbf;
 }
 
 .list{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    
 
 }
 
