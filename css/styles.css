@@ -45,7 +45,7 @@ li{
 
 /* -----------HEADER LOGO ADDRES AND NAV------------------ */
 
-.link .link-con {
+.link {
     text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ li{
 }
 
 .colorlogo{
-    color: var(--title-text-color);
+    color: #434455;
 }
 /* ------------SITE NAV--------------- */
 
@@ -93,7 +93,7 @@ li{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    
 
 }
 
