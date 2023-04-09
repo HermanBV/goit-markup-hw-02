@@ -69,23 +69,23 @@ li{
 }
 /* ------------SITE NAV--------------- */
 
-.site-nav .link-nav{
+.site-nav .link{
     color:var(--title-text-color);
 }
 
-.contacts .link-con{
+.contacts .link{
     color: var(--title-text-color);
 }
 
-.site-nav .link-nav:hover, 
-.site-nav .link-nav:focus{
+.site-nav .link:hover, 
+.site-nav .link:focus{
     color: var(--accent-color);
     color: #404bbf;
 
 }
 
-.contacts .link-con:hover,
-.contacts .link-con:focus{
+.contacts .link:hover,
+.contacts .link:focus{
     color: var(--accent-color);
 }
 
