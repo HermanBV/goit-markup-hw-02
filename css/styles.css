@@ -60,6 +60,9 @@ li{
 
 }
 
+.contacts{
+    font-style: normal;
+}
 
 .colorlogo{
     color: var(--title-text-color);
@@ -78,7 +81,7 @@ li{
 .site-nav .link-nav:focus{
     color: var(--accent-color);
     color: #404bbf;
-    
+
 }
 
 .contacts .link-con:hover,
