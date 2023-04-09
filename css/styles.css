@@ -65,7 +65,7 @@ li{
 }
 
 .colorlogo{
-    color: #434455;
+    color:var(--primary-text-color);
 }
 /* ------------SITE NAV--------------- */
 
