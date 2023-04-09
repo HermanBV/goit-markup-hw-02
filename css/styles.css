@@ -24,8 +24,11 @@ ul.list{
     list-style: none;
 }
 
+/* logo */
+
 .logo {
     color:var(--accent-color) ;
+    font-family:Raleway;
 }
 
 .colorlogo{
