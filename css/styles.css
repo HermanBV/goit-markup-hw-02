@@ -12,19 +12,42 @@
     --accent-color:#4D5AE5; 
     --primary-white-color:#fff
 }
-
+/*------------------BODY------------- */
 body{
     background-color:var(--primary-white-color);
     color:var(--primary-text-color) ;
 
     font-family:Roboto, sans-serif;
 }
-
-ul.list{
+li{
     list-style: none;
+    
+}
+.list > li > a {
+     text-decoration: none;
+ }
+
+ .logo {
+    text-decoration: none;
+ }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
-/* logo */
+/* -----------HEADER LOGO ADDRES AND NAV------------------ */
+
+.link .link-con {
+    text-decoration: none;
+}
 
 .logo {
     color:var(--accent-color) ;
@@ -37,32 +60,30 @@ ul.list{
 
 }
 
-.logo .link {
-    text-decoration: none;
-}
+
 .colorlogo{
     color: var(--title-text-color);
 }
-/* Site nav */
+/* ------------SITE NAV--------------- */
 
-.site-nav .link {
+.site-nav .link-nav{
     color:var(--title-text-color);
 }
 
-.site-nav .link-studio:hover, 
-.site-nav .link-studio:focus{
+.contacts .link-con{
+    color: var(--title-text-color);
+}
+
+.site-nav .link-nav:hover, 
+.site-nav .link-nav:focus{
     color: var(--accent-color);
 }
 
-.site-nav .link-portfolio:hover,
-.site-nav .link-portfolio:focus {
+.contacts .link-con:hover,
+.contacts .link-con:focus{
     color: var(--accent-color);
 }
 
-.site-nav .link-contacts:hover,
-.site-nav .link-contacts:focus {
-    color: var(--accent-color);
-}
 
 .link{
 color: var(--accent-color);
