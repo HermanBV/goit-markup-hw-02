@@ -49,8 +49,18 @@ ul.list{
     color:var(--title-text-color);
 }
 
-.site-nav .link:hover, 
-.site-nav .link:focus{
+.site-nav .link-studio:hover, 
+.site-nav .link-studio:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link-portfolio:hover,
+.site-nav .link-portfolio:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link-contacts:hover,
+.site-nav .link-contacts:focus {
     color: var(--accent-color);
 }
 
