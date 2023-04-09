@@ -112,8 +112,7 @@ color: var(--accent-color);
     letter-spacing: 0.02em;
 }
 
-.button:hover,
-.button:focus {
+.button {
     background-color: var(--accent-color);
     color:var(--primary-white-color);
     font-family: "Roboto", sans-serif;
