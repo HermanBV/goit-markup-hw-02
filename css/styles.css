@@ -180,5 +180,6 @@ background-color: var(--title-text-color);
 
 .button-sel:hover,
 .button-sel:focus{
-    
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
