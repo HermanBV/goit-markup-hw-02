@@ -176,6 +176,7 @@ background-color: var(--title-text-color);
     letter-spacing: 0.04em;
     color:var(--accent-color);
     background-color:var(--button-back-color);
+    cursor: pointer;
 }
 
 .button-sel:hover,
