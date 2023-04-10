@@ -48,7 +48,8 @@ li{
 
 .link {
     text-decoration: none;
-    color: var(--primary-text-color);
+    color: #434455;
+    
 }
 
 .logo {
@@ -67,8 +68,13 @@ li{
 }
 
 .colorlogo{
-    color:var(--title-text-color);
+    color:var(--accent-color);
+
 }
+.link {
+    text-decoration: none;
+    color:var(--primary-text-color);
+
 /* ------------SITE NAV--------------- */
 
 .site-nav .link{
