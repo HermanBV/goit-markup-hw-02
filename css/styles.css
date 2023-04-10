@@ -129,7 +129,7 @@ color: var(--accent-color);
     background-color: #404BBF;
 }
 
-/* section 1 */
+/* -----------section 1--------- */
 .section-title{
     font-weight: 500;
     font-size: 20px;
@@ -139,13 +139,18 @@ color: var(--accent-color);
 
 }
 
-
-.feature-list .title{
-color:var(--title-text-color) ;
-}
-
+/* ------SECTION 2-------- */
 .section-work{
     background-color:var(--primary-white-color);
+}
+
+.title-offers{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    
 }
 
 .section-team{
