@@ -81,9 +81,6 @@ li{
     color:var(--title-text-color);
 }
 
-.contacts .link{
-    color: var(--title-text-color);
-}
 
 .site-nav .link:hover, 
 .site-nav .link:focus{
