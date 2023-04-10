@@ -155,6 +155,10 @@ color:var(--title-text-color) ;
     color: var(--primary-white-color);
 }
 
-.colorlogo{
-    color: #f4f4fd
+.footer{
+background-color: var(--title-text-color);
+}
+
+.footer-logo{
+    color: var(--primary-white-color);
 }
