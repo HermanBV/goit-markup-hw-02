@@ -142,14 +142,19 @@ color: var(--accent-color);
 color:var(--title-text-color) ;
 }
 
-.footer-text{
-    color:var(--primary-white-color);
-}
- 
 .section-work{
     background-color:var(--primary-white-color);
 }
 
 .section-team{
     background-color: #F4F4FD;
+}
+
+/* --------------FOOTER---------------- */
+.footer-text {
+    color: var(--primary-white-color);
+}
+
+.colorlogo{
+    color: #f4f4fd
 }
