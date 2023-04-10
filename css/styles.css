@@ -11,7 +11,8 @@
     --title-text-color:#2E2F42;
     --accent-color:#4D5AE5; 
     --primary-white-color:#fff;
-    
+    --button-back-color:#F4F4FD;
+
 }
 /*------------------BODY------------- */
 body{
@@ -174,6 +175,10 @@ background-color: var(--title-text-color);
     line-height: 1.5;
     letter-spacing: 0.04em;
     color:var(--accent-color);
-    background-color:var(--)
+    background-color:var(--button-back-color);
+}
 
+.button-sel:hover,
+.button-sel:focus{
+    
 }
