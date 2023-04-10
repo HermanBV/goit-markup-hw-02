@@ -97,9 +97,6 @@ li{
     letter-spacing: 0.02em;
 }
 
-.link{
-color: var(--accent-color);
-}
 /* hero */
 .hero{
     background-color: var(--title-text-color);
@@ -139,6 +136,9 @@ color: var(--accent-color);
 
 }
 
+.link {
+    color: var(--primary-text-color);
+
 /* ------SECTION 2-------- */
 .section-work{
     background-color:var(--primary-white-color);
@@ -153,8 +153,17 @@ color: var(--accent-color);
     
 }
 
+/* ----------SECTION 3---------- */
+
+
+
+
+
+
+/* --------SECTION 4----------- */
+
 .section-team{
-    background-color: #F4F4FD;
+    background-color:#F4F4FD;
 }
 
 /* --------------FOOTER---------------- */
