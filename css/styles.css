@@ -95,8 +95,6 @@ li{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
-
 }
 
 .link{
@@ -131,7 +129,16 @@ color: var(--accent-color);
     background-color: #404BBF;
 }
 
-/* section */
+/* section 2 */
+.section-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    
+}
+
 .section-title,
 .feature-list{
     background-color:var(--primary-white-color) ;
@@ -210,5 +217,5 @@ background-color: var(--title-text-color);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--accent-color);
-    
+
 }
