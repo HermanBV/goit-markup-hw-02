@@ -56,7 +56,7 @@ li {
   color: var(--primary-text-color);
 }
 
-link .span {
+.logo > a > span {
   color: var(--title-text-color);
 }
 
