@@ -56,10 +56,6 @@ link .color-logo {
   color: var(--primary-text-color);
 }
 
-.logo > link > span {
-  color: var(--title-text-color);
-}
-
 nav .link {
   color: var(--title-text-color);
 }
