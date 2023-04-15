@@ -39,7 +39,7 @@ li {
 }
 
 .logo {
-  font-family: Raleway, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -184,7 +184,7 @@ nav .link {
   background-color: var(--title-text-color);
 }
 
-.footer-logo link {
+.footer-logo {
   color: #f4f4fd;
 }
 
@@ -226,7 +226,7 @@ nav .link {
 }
 
 .footer-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
