@@ -150,7 +150,13 @@ nav .link {
 .section-team {
   background-color: #f4f4fd;
 }
-
+.team-title {
+  font-family: inherit;
+  font-style: Bold;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
 /* --------------FOOTER---------------- */
 .footer-text {
   color: var(--primary-white-color);
