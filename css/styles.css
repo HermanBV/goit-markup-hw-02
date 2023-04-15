@@ -139,6 +139,12 @@ nav .link {
 
 /* ----------SECTION 3---------- */
 
+.title-offers {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
 /* --------SECTION 4----------- */
 
 .section-team {
