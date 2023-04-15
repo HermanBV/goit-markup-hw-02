@@ -65,6 +65,10 @@ li {
 }
 /* ------------SITE NAV--------------- */
 
+.span {
+  color: var(--title-text-color);
+}
+
 nav .link {
   color: var(--title-text-color);
 }
