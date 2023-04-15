@@ -46,7 +46,7 @@ li {
 
 .link {
   text-decoration: none;
-  color: #434455;
+  color: var(--accent-color);
 }
 
 .logo {
@@ -160,9 +160,12 @@ nav .link {
 }
 
 .footer-logo {
-  color: var(--primary-white-color);
+  color: var(--accent-color);
 }
 
+.logo-studio {
+  color: var(--primary-white-color);
+}
 /* -------------------Portfolio------------------ */
 
 .button-sel {
