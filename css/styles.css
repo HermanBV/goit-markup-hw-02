@@ -18,6 +18,10 @@ li {
   text-decoration: none;
 }
 
+.util {
+  text-decoration: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -35,7 +39,6 @@ li {
 
 .link {
   text-decoration: none;
-  color: var(--accent-color);
 }
 
 .logo {
@@ -45,28 +48,32 @@ li {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: #404bbf;
 }
 
 .clr-logo {
-  color: var(--accent-color);
+  color: var(--title-text-color);
+}
+.clr-logo:hover,
+.clr-logo:focus {
+  color: #404bbf;
 }
 
 .span {
   color: var(--accent-color);
 }
-.link {
-  text-decoration: none;
-  color: var(--primary-text-color);
-}
 
-nav .link {
+.linkk {
   color: var(--title-text-color);
 }
 
 .link:hover,
 .link:focus {
-  color: var(--accent-color);
   color: #404bbf;
 }
 
@@ -159,7 +166,7 @@ nav .link {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--primary-text-color);
+  color: var(--title-text-color);
 }
 
 .team-item {
