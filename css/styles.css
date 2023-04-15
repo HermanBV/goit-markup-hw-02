@@ -48,7 +48,11 @@ li {
   color: #2e2f42;
 }
 
-.color-logo {
+.clr-logo {
+  color: var(--accent-color);
+}
+
+span .clr-logo {
   color: var(--accent-color);
 }
 .link {
