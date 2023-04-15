@@ -70,6 +70,9 @@ nav .link {
   color: #404bbf;
 }
 
+.contacts {
+  font-style: normal;
+}
 .contacts .link:hover,
 .contacts .link:focus {
   color: #404bbf;
