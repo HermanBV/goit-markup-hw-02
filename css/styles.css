@@ -56,7 +56,7 @@ link .color-logo {
   color: var(--primary-text-color);
 }
 
-.logo > linka > span {
+.logo > link > span {
   color: var(--title-text-color);
 }
 
@@ -150,6 +150,7 @@ nav .link {
 .section-team {
   background-color: #f4f4fd;
 }
+
 .team-title {
   font-family: inherit;
   font-style: Bold;
