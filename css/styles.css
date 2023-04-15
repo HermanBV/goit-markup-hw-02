@@ -48,7 +48,7 @@ li {
   text-transform: uppercase;
 }
 
-.color-logo {
+.list .color-logo {
   color: var(--accent-color);
 }
 .link {
