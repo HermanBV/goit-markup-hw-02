@@ -63,6 +63,9 @@ li {
 .span {
   color: var(--accent-color);
 }
+.linkk {
+  color: var(--title-text-color);
+}
 
 .linkk:hover,
 .linkk:focus {
