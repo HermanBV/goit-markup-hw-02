@@ -177,13 +177,15 @@ nav .link {
 .footer-text {
   color: var(--primary-white-color);
 }
-
+.stu-color {
+  color: var(--primary-white-color);
+}
 .footer {
   background-color: var(--title-text-color);
 }
 
 .footer-logo {
-  color: var(--accent-color);
+  color: #f4f4fd;
 }
 
 .logo-studio {
