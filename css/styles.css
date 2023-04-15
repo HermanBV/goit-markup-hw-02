@@ -52,7 +52,7 @@ li {
   color: var(--accent-color);
 }
 
-span .clr-logo {
+.clr-logo span {
   color: var(--accent-color);
 }
 .link {
