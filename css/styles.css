@@ -64,7 +64,7 @@ li {
   color: var(--accent-color);
 }
 .linkk {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
 }
 
 .linkk:hover,
