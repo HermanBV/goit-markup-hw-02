@@ -48,7 +48,7 @@ li {
   color: #2e2f42;
 }
 
-link .color-logo {
+.color-logo {
   color: var(--accent-color);
 }
 .link {
