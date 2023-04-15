@@ -184,7 +184,7 @@ nav .link {
   background-color: var(--title-text-color);
 }
 
-.footer-logo {
+.footer-logo link {
   color: #f4f4fd;
 }
 
