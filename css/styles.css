@@ -48,7 +48,7 @@ li {
   text-transform: uppercase;
 }
 
-.link .color-logo {
+link .color-logo {
   color: var(--accent-color);
 }
 .link {
@@ -56,7 +56,7 @@ li {
   color: var(--primary-text-color);
 }
 
-.logo > a > span {
+.logo > linka > span {
   color: var(--title-text-color);
 }
 
