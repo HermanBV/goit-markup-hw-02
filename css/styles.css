@@ -37,10 +37,6 @@ li {
 
 /* -----------HEADER LOGO ADDRES AND NAV------------------ */
 
-.link {
-  text-decoration: none;
-}
-
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -68,20 +64,16 @@ li {
   color: var(--accent-color);
 }
 
-.linkk {
-  color: var(--title-text-color);
-}
-
-.link:hover,
-.link:focus {
+.linkk:hover,
+.linkk:focus {
   color: #404bbf;
 }
 
 .contacts {
   font-style: normal;
 }
-.contacts .link:hover,
-.contacts .link:focus {
+.contacts .linkk:hover,
+.contacts .linkk:focus {
   color: #404bbf;
 }
 
@@ -128,9 +120,6 @@ li {
   color: var(--title-text-color);
 }
 
-.link {
-  color: var(--primary-text-color);
-}
 /* ------SECTION 2-------- */
 .section-work {
   background-color: var(--primary-white-color);
