@@ -85,6 +85,13 @@ li {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.linkkkk {
+  color: var(--primary-text-color);
+}
+.linkkkk:hover,
+.linkkkk:focus {
+  color: #404bbf;
+}
 
 /* hero */
 .hero {
