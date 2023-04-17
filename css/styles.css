@@ -114,8 +114,8 @@ body {
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.btn:hover,
+.btn:focus {
   background-color: #404bbf;
 }
 
