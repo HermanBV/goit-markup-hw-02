@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 :root {
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
@@ -49,7 +54,12 @@ body {
 }
 
 /* -----------------HEADER-------------------- */
-
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  width: 1440px;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -103,13 +113,23 @@ body {
 /* ----------------------HERO----------------------- */
 .hero {
   background-color: var(--title-text-color);
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+  height: 600px;
+  width: 1440px;
 }
+
 .hero-title {
+  box-sizing: content-box;
   color: var(--primary-white-color);
+  padding: 188px 472px 48px 472px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .btn {
@@ -121,6 +141,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 
 .btn:hover,
@@ -131,6 +153,7 @@ body {
 /* ---------------------about------------------ */
 .about {
   background-color: var(--primary-white-color);
+  margin-bottom: 120px;
 }
 
 .title {
@@ -139,6 +162,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  max-width: 264px;
+  margin-bottom: 8px;
 }
 
 .title-offers {
@@ -162,6 +187,12 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--title-text-color);
+  min-width: 323px;
+  margin-bottom: 72px;
+}
+
+.feature {
+  max-width: 360px;
 }
 
 /* -----------------------team------------------- */
@@ -295,6 +326,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  max-width: 264px;
 }
 /* --------------------portfolio footer-------------------- */
 .portfolio-ftr {
